@@ -3,7 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>My Personal Portfolio</h1>
+      <div className='background'>
+        <h1 style={{"color" : "white"}}>My Personal Portfolio</h1>
+      </div>
     </div>
   );
 }
